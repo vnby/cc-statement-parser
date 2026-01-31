@@ -94,14 +94,14 @@ Each row contains:
 
 Banks are detected from the PDF filename using pattern matching. Examples:
 
-- `038732_Billing_Statement_8303.pdf` → BRI
-- `CC_eBilling_Jan_2026_xxxx6835.pdf` → Mandiri
+- `[redacted_number]_Billing_Statement_[redacted_number].pdf` → BRI
+- `CC_eBilling_Jan_2026_xxxx[redacted_number].pdf` → Mandiri
 - `ebillingbw012026.pdf` → BNI
-- `CSTEPC270126000000934.pdf` → UOB
+- `CSTEPC[redacted_number].pdf` → UOB
 - `20260121.pdf` → HSBC
-- `18519906_10012026_1768094449538.pdf` → BCA
-- `202601240000733869.pdf` → DBS
-- `sharia card billing statement_19-01-2026_546593608.pdf` → CIMB Niaga
+- `[redacted_number]_10012026_[redacted_number].pdf` → BCA
+- `20260124[redacted_number].pdf` → DBS
+- `sharia card billing statement_19-01-2026_[redacted_number].pdf` → CIMB Niaga
 
 ## Dependencies
 
